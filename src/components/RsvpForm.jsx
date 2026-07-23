@@ -11,8 +11,7 @@ export const RsvpForm = ({ brideName = "Subhana", groomName = "Saad", recipientE
     events: {
       haldi: true,
       sangeet: true,
-      wedding: true,
-      reception: true
+      wedding: true
     },
     dietary: ''
   });
@@ -57,7 +56,6 @@ export const RsvpForm = ({ brideName = "Subhana", groomName = "Saad", recipientE
     };
 
     try {
-      // Send formatted email via AJAX to navelaindustries@gmail.com
       await fetch(`https://formsubmit.co/ajax/${recipientEmail}`, {
         method: 'POST',
         headers: {
@@ -105,7 +103,7 @@ export const RsvpForm = ({ brideName = "Subhana", groomName = "Saad", recipientE
           RSVP Confirmation
         </h2>
         <p className="font-calligraphy" style={{ fontSize: '1.6rem', color: '#e8c39e', marginTop: '4px' }}>
-          Please confirm your attendance by November 1st, 2026
+          Please confirm your attendance by August 1st, 2026
         </p>
       </div>
 
@@ -266,8 +264,7 @@ export const RsvpForm = ({ brideName = "Subhana", groomName = "Saad", recipientE
                     {[
                       { key: 'haldi', label: 'Haldi Ceremony' },
                       { key: 'sangeet', label: 'Mehendi & Sangeet' },
-                      { key: 'wedding', label: 'Wedding Nikkah' },
-                      { key: 'reception', label: 'Grand Reception' }
+                      { key: 'wedding', label: 'Wedding Nikkah' }
                     ].map((item) => (
                       <label key={item.key} style={{
                         display: 'flex',

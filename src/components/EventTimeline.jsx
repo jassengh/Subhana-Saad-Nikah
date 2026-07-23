@@ -32,16 +32,6 @@ export const EventTimeline = () => {
       dressCode: 'Royal Velvet & Gold Ethnic Attire',
       color: '#d4af37',
       badge: '💍 Main Nikah Event'
-    },
-    {
-      title: 'Grand Reception / Walima',
-      subtitle: 'A Royal Banquet & Festive Feast',
-      date: 'Sunday, 9 August 2026',
-      time: '07:00 PM onwards',
-      location: 'Crystal Ballroom Pavilion',
-      dressCode: 'Formal Elegance & Evening Wear',
-      color: '#e84a5f',
-      badge: '🥂 Walima Reception'
     }
   ];
 
@@ -85,7 +75,7 @@ export const EventTimeline = () => {
       {/* Grid of Event Cards */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
         gap: '24px'
       }}>
         {events.map((evt, idx) => (
