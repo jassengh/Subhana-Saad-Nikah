@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Sparkles, CheckCircle2, Mail, Send } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
-export const RsvpForm = ({ brideName = "Subhana", groomName = "Aayan", recipientEmail = "navelaindustries@gmail.com" }) => {
+export const RsvpForm = ({ brideName = "Subhana", groomName = "Saad", recipientEmail = "navelaindustries@gmail.com" }) => {
   const [formData, setFormData] = useState({
     guestName: '',
     phone: '',

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Heart, Sparkles, Volume2, Lock } from 'lucide-react';
 import { soundManager } from '../utils/audio';
 
-export const EnvelopeGate = ({ onOpenComplete, brideName = "Subhana", groomName = "Aayan" }) => {
+export const EnvelopeGate = ({ onOpenComplete, brideName = "Subhana", groomName = "Saad" }) => {
   const [stage, setStage] = useState('sealed'); // 'sealed' | 'opening' | 'unfolding' | 'opened'
 
   const handleOpenDoors = () => {
@@ -136,7 +136,7 @@ export const EnvelopeGate = ({ onOpenComplete, brideName = "Subhana", groomName 
             fontSize: '0.9rem',
             fontWeight: '600'
           }}>
-            <Sparkles size={16} /> <span>Save The Date: Nov 24, 2026</span> <Sparkles size={16} />
+            <Sparkles size={16} /> <span>Save The Date: Aug 8, 2026</span> <Sparkles size={16} />
           </div>
 
           <div style={{ fontSize: '1.1rem', color: '#d4af37', marginTop: '6px' }}>

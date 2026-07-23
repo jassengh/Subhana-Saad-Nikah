@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Sparkles, Heart } from 'lucide-react';
 
-export const LoadingScreen = ({ onComplete, brideName = "Subhana", groomName = "Aayan" }) => {
+export const LoadingScreen = ({ onComplete, brideName = "Subhana", groomName = "Saad" }) => {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {

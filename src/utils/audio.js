@@ -85,7 +85,7 @@ class SoundSystem {
   }
 
   // Voice Speech Greeting
-  speakWelcome(groomName = "Aayan") {
+  speakWelcome(groomName = "Saad") {
     if (!this.speechSynth || this.isMuted) return;
     
     // Cancel any ongoing speech

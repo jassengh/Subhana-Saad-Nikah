@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { MessageSquare, Heart, Send, Sparkles, Mail } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
-export const GuestWishes = ({ brideName = "Subhana", groomName = "Aayan", recipientEmail = "navelaindustries@gmail.com" }) => {
+export const GuestWishes = ({ brideName = "Subhana", groomName = "Saad", recipientEmail = "navelaindustries@gmail.com" }) => {
   const [wishes, setWishes] = useState([
     {
       name: 'Aisha & Family',
