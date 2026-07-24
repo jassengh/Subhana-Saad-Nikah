@@ -7,8 +7,8 @@ export const EventTimeline = () => {
       title: 'Haldi Ceremony',
       subtitle: 'A Splash of Sunshine & Blessings',
       date: 'Thursday, 6 August 2026',
-      time: '10:00 AM onwards',
-      location: 'Rosewood Villa Gardens',
+      time: '07:00 PM onwards',
+      location: 'At Home',
       dressCode: 'Traditional Mustard & Sunshine Yellow',
       color: '#ffd700',
       badge: '💛 Haldi'
@@ -17,8 +17,8 @@ export const EventTimeline = () => {
       title: 'Mehendi & Sangeet Night',
       subtitle: 'Henna, Beats & Festive Celebration',
       date: 'Friday, 7 August 2026',
-      time: '06:30 PM onwards',
-      location: 'Celebration Garden Hall',
+      time: '07:00 PM onwards',
+      location: 'At Home',
       dressCode: 'Traditional Green & Floral Attire',
       color: '#2e8b57',
       badge: '💃 Mehendi & Sangeet'
